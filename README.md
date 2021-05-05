@@ -36,21 +36,21 @@ The purpose of the analysis is to evaluate three machine learning models - Logis
     * Precision: 1.0 the ones identified as low risk are actually low risk
     * Sensitivity: .66, the one that we know are low risk are actually classified as low risk 
 5. Balanced Random Forest Classifier
-  * Accurancy Score: .64  
+  * Accurancy Score: .87  
   * High Risk:
-    * Precision: .01, the ones identified as high risk are actually high risk
-    * Sensitivity: .62, the one that we know are high risk are actually classified as high risk 
+    * Precision: .03, the ones identified as high risk are actually high risk
+    * Sensitivity: .70, the one that we know are high risk are actually classified as high risk 
   * Low Risk:
     * Precision: 1.0 the ones identified as low risk are actually low risk
-    * Sensitivity: .66, the one that we know are low risk are actually classified as low risk 
+    * Sensitivity: .87, the one that we know are low risk are actually classified as low risk 
 6. Easy Ensemble Classifier
-  * Accurancy Score: .63  
+  * Accurancy Score: .94  
   * High Risk:
-    * Precision: .01, the ones identified as high risk are actually high risk
-    * Sensitivity: .61, the one that we know are high risk are actually classified as high risk 
+    * Precision: .09, the ones identified as high risk are actually high risk
+    * Sensitivity: .92, the one that we know are high risk are actually classified as high risk 
   * Low Risk:
     * Precision: 1.0 the ones identified as low risk are actually low risk
-    * Sensitivity: .66, the one that we know are low risk are actually classified as low risk 
+    * Sensitivity: .94, the one that we know are low risk are actually classified as low risk 
 
 # Summary
-Overall, I do not think any of these models have an accuracy score high enough to be used to predict credit risk. Additionally, they all have low precision, meaning that out of the ones that are identified high risk only a low number are actually classified as such.
+The Easy Ensemble Classifier model produced the highest accuracy score at .94. Additionally, Precision and Sensity for High Risk are both high, meaning that the ones identified as high risk, really are high risk and the ones we know are high risk, are actually classified as high risk.

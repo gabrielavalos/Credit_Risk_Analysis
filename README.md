@@ -11,6 +11,7 @@ The purpose of the analysis is to evaluate three machine learning models - Logis
   * Low Risk:
     * Precision: 1.0 the ones identified as low risk are actually low risk
     * Sensitivity: .66, the one that we know are low risk are actually classified as low risk 
+![](https://github.com/gabrielavalos/Credit_Risk_Analysis/blob/main/IMAGES/NAIVE_OVERSAMPLING.png)
 2. SMOTEE - Oversampling
   * Accurancy Score: .64  
   * High Risk:
@@ -19,6 +20,7 @@ The purpose of the analysis is to evaluate three machine learning models - Logis
   * Low Risk:
     * Precision: 1.0 the ones identified as low risk are actually low risk
     * Sensitivity: .66, the one that we know are low risk are actually classified as low risk
+![](https://github.com/gabrielavalos/Credit_Risk_Analysis/blob/main/IMAGES/SMOTEE_OVERSAMPLING.png)
 3. Logistic Regression - Undersampling
   * Accurancy Score: .52  
   * High Risk:
@@ -27,6 +29,7 @@ The purpose of the analysis is to evaluate three machine learning models - Logis
   * Low Risk:
     * Precision: 1.0 the ones identified as low risk are actually low risk
     * Sensitivity: .45, the one that we know are low risk are actually classified as low risk 
+![](https://github.com/gabrielavalos/Credit_Risk_Analysis/blob/main/IMAGES/UNDERSAMPLING.png)
 4. Logistic Regression - Combination Sampling
   * Accurancy Score: .63  
   * High Risk:
@@ -35,6 +38,7 @@ The purpose of the analysis is to evaluate three machine learning models - Logis
   * Low Risk:
     * Precision: 1.0 the ones identified as low risk are actually low risk
     * Sensitivity: .66, the one that we know are low risk are actually classified as low risk 
+![](https://github.com/gabrielavalos/Credit_Risk_Analysis/blob/main/IMAGES/COMBINATION.png)
 5. Balanced Random Forest Classifier
   * Accurancy Score: .87  
   * High Risk:
@@ -43,6 +47,7 @@ The purpose of the analysis is to evaluate three machine learning models - Logis
   * Low Risk:
     * Precision: 1.0 the ones identified as low risk are actually low risk
     * Sensitivity: .87, the one that we know are low risk are actually classified as low risk 
+![](https://github.com/gabrielavalos/Credit_Risk_Analysis/blob/main/IMAGES/BalancedRandomForestClassifier.png)
 6. Easy Ensemble Classifier
   * Accurancy Score: .94  
   * High Risk:
@@ -51,6 +56,7 @@ The purpose of the analysis is to evaluate three machine learning models - Logis
   * Low Risk:
     * Precision: 1.0 the ones identified as low risk are actually low risk
     * Sensitivity: .94, the one that we know are low risk are actually classified as low risk 
+![](https://github.com/gabrielavalos/Credit_Risk_Analysis/blob/main/IMAGES/EasyEnsembleClassifier.png)
 
 # Summary
 The Easy Ensemble Classifier model produced the highest accuracy score at .94. Additionally, Precision and Sensity for High Risk are both high, meaning that the ones identified as high risk, really are high risk and the ones we know are high risk, are actually classified as high risk.
